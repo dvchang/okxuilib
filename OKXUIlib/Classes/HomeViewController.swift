@@ -85,7 +85,7 @@ public class HomeViewController : UIViewController {
         view.addSubview(videosView)
     }
     
-    func updateVideoIndex(index: Int) {
+    func updateCraouselIndexWithScrolling(index: Int) {
         if (index != currentFocusedCarouselItem) {
             carouselView.scrollToItem(at: IndexPath(item: index, section: 0), at: .left, animated: true)
             updateCurrentFocusedCarouselIndex(index: index)
@@ -96,6 +96,12 @@ public class HomeViewController : UIViewController {
         if (index != currentFocusedCarouselItem) {
             currentFocusedCarouselItem = index
             carouselView.performBatchUpdates(nil, completion: nil)
+        }
+    }
+    
+    func updateVideoViewIndex(index: Int) {
+        if (videosView.indexPathsForVisibleItems.first?.row != index) {
+            videosView.scrollToItem(at: IndexPath(row: index, section: 0), at: .left, animated: true)
         }
     }
     
@@ -115,7 +121,7 @@ extension HomeViewController : UICollectionViewDelegate {
                     index.row = index.row+1
                 }
                 collectionView.scrollToItem(at: index, at: .left, animated: true)
-                updateVideoIndex(index: index.row)
+                updateCraouselIndexWithScrolling(index: index.row)
             }
         }
     }
@@ -146,6 +152,7 @@ extension HomeViewController : UICollectionViewDelegate {
             }
         }
         updateCurrentFocusedCarouselIndex(index: index)
+        updateVideoViewIndex(index: index)
     }
 }
 

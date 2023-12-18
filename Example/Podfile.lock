@@ -1,15 +1,26 @@
 PODS:
-  - OKXUIlib (0.1.0)
+  - Alamofire (5.8.1)
+  - AlamofireImage (4.3.0):
+    - Alamofire (~> 5.8)
+  - OKXUIlib (0.1.0):
+    - AlamofireImage (~> 4.3)
 
 DEPENDENCIES:
   - OKXUIlib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
 
 EXTERNAL SOURCES:
   OKXUIlib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OKXUIlib: 1a75a06dfc8c773d14b8113fe42c967986c829ef
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
+  OKXUIlib: 7152ed7567ba2158935a3cab9dfafe962bcd5a4b
 
 PODFILE CHECKSUM: 4294d417b5b9b66975a548658c7c3f3215f62a98
 

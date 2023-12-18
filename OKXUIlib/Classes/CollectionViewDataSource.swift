@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 class VideoViewDataSource : NSObject, UICollectionViewDataSource {
     
     var viewmodel : HomeViewViewModel
@@ -27,4 +25,23 @@ class VideoViewDataSource : NSObject, UICollectionViewDataSource {
         }
         return cell
     }    
+}
+
+class CarouselDataSource : NSObject, UICollectionViewDataSource {
+    var viewmodel : HomeViewViewModel
+    init(viewmodel: HomeViewViewModel) {
+        self.viewmodel = viewmodel
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return section == 0 ? viewmodel.numberOfItem() : 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCell.cellReuseIdentifier, for: indexPath)
+        if let carouselCell = cell as? CarouselCell {
+            carouselCell.setData(aData: viewmodel.dataAtIndex(indexPath.row)!)
+        }
+        return cell
+    }
 }

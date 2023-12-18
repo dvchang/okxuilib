@@ -157,8 +157,7 @@ extension HomeViewController : UICollectionViewDelegate {
 }
 
 extension HomeViewController : UICollectionViewDelegateFlowLayout {
-    
-    
+        
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if (collectionView === carouselView) {
             if (indexPath.row == currentFocusedCarouselItem) {

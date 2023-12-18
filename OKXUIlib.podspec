@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OKXUIlib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OKXUIlib.'
+  s.summary          = 'OKXUIlib can display video and image carousel in a home feed.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  OKXUIlib can display video and image carousel in a home feed. Video on the top and image carousel at the bottom.
                        DESC
 
-  s.homepage         = 'https://github.com/1630880/OKXUIlib'
+  s.homepage         = 'https://github.com/dvchang/OKXUIlib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1630880' => 'dvchangyuan@gmail.com' }
-  s.source           = { :git => 'https://github.com/1630880/OKXUIlib.git', :tag => s.version.to_s }
+  s.author           = { 'dvchang' => 'dvchangyuan@gmail.com' }
+  s.source           = { :git => 'https://github.com/dvchang/OKXUIlib.git', :tag => 'v0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'OKXUIlib/Classes/**/*'
   

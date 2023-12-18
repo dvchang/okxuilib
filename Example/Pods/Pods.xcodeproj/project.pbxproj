@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A98DB28DC4325A37031FB5CD6D3B95 /* Pods-OKXUIlib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9684F507CC35F0289E41286FD75CB99 /* Pods-OKXUIlib_Tests-dummy.m */; };
+		7C08DBA876B0865C35A4758C82C39B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89CC777E1017D22AEB77EC113906544F /* Pods-OKXUIlib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E95C4FF6E27C4E4EE304B720028425 /* Pods-OKXUIlib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9541E9E627ECEEAA3C4594F604EAAD1B /* Pods-OKXUIlib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B2E4BC3A4BE4DEE149D7B699EA00F /* Pods-OKXUIlib_Example-dummy.m */; };
+		9C98F995A571A2F7D1BB9638C30AD46C /* OKXUIlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4861490D5939D5669D918BA6AD9B4D7 /* OKXUIlib-dummy.m */; };
+		A25BFD370011300753CCE2572F54129A /* Pods-OKXUIlib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4E79A8CB4124177E9AFD0D41896371 /* Pods-OKXUIlib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19C535A2B30C76800777B8D /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C53562B30C76700777B8D /* CollectionViewDataSource.swift */; };
+		B19C535B2B30C76800777B8D /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C53572B30C76700777B8D /* VideoCell.swift */; };
+		B19C535C2B30C76800777B8D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C53582B30C76700777B8D /* ViewModel.swift */; };
+		B19C535D2B30C76800777B8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C53592B30C76800777B8D /* HomeViewController.swift */; };
+		BBDFC56926737FFD1C0E22C67A80AB26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D253950D790FC059DF0080AC8967E3F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4BD169099E7B1452739868D400EB511 /* OKXUIlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C0CC26B8CD71AD6D09DFC02208C39A /* OKXUIlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894E4BDF58E073A38C8FF0135284266C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6890D8C9BDF7F7100F7563FB6F907340;
+			remoteInfo = OKXUIlib;
+		};
+		9ADE9F89F69B08ED2810512D4793D690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4411E86586EB38CFDCDB8F3379DB09;
+			remoteInfo = "Pods-OKXUIlib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C0CC26B8CD71AD6D09DFC02208C39A /* OKXUIlib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKXUIlib-umbrella.h"; sourceTree = "<group>"; };
+		09FA080639C30374427083770C1007C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1092EFA2EC2773BCB4019B816C2A1FAD /* Pods-OKXUIlib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OKXUIlib_Example.modulemap"; sourceTree = "<group>"; };
+		18C11F5C53E86F27E3C0053B0185F534 /* Pods-OKXUIlib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OKXUIlib_Example"; path = Pods_OKXUIlib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3D4A7012E2FF1FBF3D683971962C31 /* Pods-OKXUIlib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OKXUIlib_Tests"; path = Pods_OKXUIlib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239D8560DC29D4C235690CA4ABBC2EE0 /* Pods-OKXUIlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKXUIlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24F2CC575BA89A823A00F5ED403EF0B5 /* Pods-OKXUIlib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKXUIlib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28E95C4FF6E27C4E4EE304B720028425 /* Pods-OKXUIlib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKXUIlib_Example-umbrella.h"; sourceTree = "<group>"; };
+		5E835429BB7F7AC00A41DC2E6ADFB3C6 /* Pods-OKXUIlib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKXUIlib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		627EFF923C9DD4AD213A876F829387DF /* OKXUIlib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OKXUIlib.modulemap; sourceTree = "<group>"; };
+		653C54B03016F448A86D8B227E9A8422 /* Pods-OKXUIlib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKXUIlib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75BD28AE3CCFF5B09AC34184898F898F /* OKXUIlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OKXUIlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85347637A9786F8C631F1C2EB024E5B9 /* Pods-OKXUIlib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKXUIlib_Example-Info.plist"; sourceTree = "<group>"; };
+		853A4866547400B1558BAA03C551D65F /* OKXUIlib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKXUIlib.debug.xcconfig; sourceTree = "<group>"; };
+		87F40DE1DA82118AD3247B6E5F7C4BA7 /* Pods-OKXUIlib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OKXUIlib_Tests.modulemap"; sourceTree = "<group>"; };
+		9B93469AD665EACB462B7E80F1D678FB /* Pods-OKXUIlib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKXUIlib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E27822A3CE9B6FF566B01F3BAC35D2C /* Pods-OKXUIlib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKXUIlib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B6CBD4E087BDAC5767A7A3A67AFFD8 /* Pods-OKXUIlib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKXUIlib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AD3D8B1D3EC6C4929136F7DC6A05E0F8 /* OKXUIlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKXUIlib.release.xcconfig; sourceTree = "<group>"; };
+		ADF7756F3A789A3243E9C6A3E4A24656 /* Pods-OKXUIlib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKXUIlib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B19C53562B30C76700777B8D /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewDataSource.swift; path = OKXUIlib/Classes/CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		B19C53572B30C76700777B8D /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = OKXUIlib/Classes/VideoCell.swift; sourceTree = "<group>"; };
+		B19C53582B30C76700777B8D /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = OKXUIlib/Classes/ViewModel.swift; sourceTree = "<group>"; };
+		B19C53592B30C76800777B8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = OKXUIlib/Classes/HomeViewController.swift; sourceTree = "<group>"; };
+		B4861490D5939D5669D918BA6AD9B4D7 /* OKXUIlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKXUIlib-dummy.m"; sourceTree = "<group>"; };
+		B9684F507CC35F0289E41286FD75CB99 /* Pods-OKXUIlib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKXUIlib_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA7E60B92B71AE40EBB59F86DE3F64A3 /* OKXUIlib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKXUIlib-prefix.pch"; sourceTree = "<group>"; };
+		D0C6E437EE091E56F70E3921C81E310E /* Pods-OKXUIlib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKXUIlib_Tests-Info.plist"; sourceTree = "<group>"; };
+		D292480BE6E4A71424BC7AE91794A1D3 /* OKXUIlib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OKXUIlib-Info.plist"; sourceTree = "<group>"; };
+		DE6B2E4BC3A4BE4DEE149D7B699EA00F /* Pods-OKXUIlib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKXUIlib_Example-dummy.m"; sourceTree = "<group>"; };
+		F04C40ED1643ECC428BB329A85C94EDE /* Pods-OKXUIlib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKXUIlib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F20E5AFF7F23319AAFF4C874838DFDF8 /* OKXUIlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKXUIlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BD8E7477906CEED90D8FB8E9C25C34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE4E79A8CB4124177E9AFD0D41896371 /* Pods-OKXUIlib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKXUIlib_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076EBBDF006F3F00E3C4DA34D7F6A2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C08DBA876B0865C35A4758C82C39B41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3670E0EA3AB6D4B0262BCE556029CECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDFC56926737FFD1C0E22C67A80AB26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3FB7F67781488B82AB4A404A1FCE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D253950D790FC059DF0080AC8967E3F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2F956A4476D50C54DF3ABBE30E185A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20E5AFF7F23319AAFF4C874838DFDF8 /* OKXUIlib.framework */,
+				18C11F5C53E86F27E3C0053B0185F534 /* Pods-OKXUIlib_Example */,
+				1A3D4A7012E2FF1FBF3D683971962C31 /* Pods-OKXUIlib_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A3F986A51A685F2EC17712F0C3F65C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F713110D758CA3209E15D9D70941C3DA /* OKXUIlib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A59282EC2A8CFD6FF835F88DE1FA561A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD8E7477906CEED90D8FB8E9C25C34 /* LICENSE */,
+				75BD28AE3CCFF5B09AC34184898F898F /* OKXUIlib.podspec */,
+				09FA080639C30374427083770C1007C2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA03AF9B339C4BD058010987A2683F7F /* Pods-OKXUIlib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				87F40DE1DA82118AD3247B6E5F7C4BA7 /* Pods-OKXUIlib_Tests.modulemap */,
+				9B93469AD665EACB462B7E80F1D678FB /* Pods-OKXUIlib_Tests-acknowledgements.markdown */,
+				F04C40ED1643ECC428BB329A85C94EDE /* Pods-OKXUIlib_Tests-acknowledgements.plist */,
+				B9684F507CC35F0289E41286FD75CB99 /* Pods-OKXUIlib_Tests-dummy.m */,
+				D0C6E437EE091E56F70E3921C81E310E /* Pods-OKXUIlib_Tests-Info.plist */,
+				FE4E79A8CB4124177E9AFD0D41896371 /* Pods-OKXUIlib_Tests-umbrella.h */,
+				ADF7756F3A789A3243E9C6A3E4A24656 /* Pods-OKXUIlib_Tests.debug.xcconfig */,
+				653C54B03016F448A86D8B227E9A8422 /* Pods-OKXUIlib_Tests.release.xcconfig */,
+			);
+			name = "Pods-OKXUIlib_Tests";
+			path = "Target Support Files/Pods-OKXUIlib_Tests";
+			sourceTree = "<group>";
+		};
+		BF2AEEF1F5B964691076E4C72907244B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				627EFF923C9DD4AD213A876F829387DF /* OKXUIlib.modulemap */,
+				B4861490D5939D5669D918BA6AD9B4D7 /* OKXUIlib-dummy.m */,
+				D292480BE6E4A71424BC7AE91794A1D3 /* OKXUIlib-Info.plist */,
+				CA7E60B92B71AE40EBB59F86DE3F64A3 /* OKXUIlib-prefix.pch */,
+				03C0CC26B8CD71AD6D09DFC02208C39A /* OKXUIlib-umbrella.h */,
+				853A4866547400B1558BAA03C551D65F /* OKXUIlib.debug.xcconfig */,
+				AD3D8B1D3EC6C4929136F7DC6A05E0F8 /* OKXUIlib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OKXUIlib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A3F986A51A685F2EC17712F0C3F65C9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1C2F956A4476D50C54DF3ABBE30E185A /* Products */,
+				D10626ABDC38CC0A8C4FE1E24329A22D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D10626ABDC38CC0A8C4FE1E24329A22D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7707D2404A5FA7D42355778C3C47C77 /* Pods-OKXUIlib_Example */,
+				AA03AF9B339C4BD058010987A2683F7F /* Pods-OKXUIlib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7707D2404A5FA7D42355778C3C47C77 /* Pods-OKXUIlib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1092EFA2EC2773BCB4019B816C2A1FAD /* Pods-OKXUIlib_Example.modulemap */,
+				24F2CC575BA89A823A00F5ED403EF0B5 /* Pods-OKXUIlib_Example-acknowledgements.markdown */,
+				239D8560DC29D4C235690CA4ABBC2EE0 /* Pods-OKXUIlib_Example-acknowledgements.plist */,
+				DE6B2E4BC3A4BE4DEE149D7B699EA00F /* Pods-OKXUIlib_Example-dummy.m */,
+				5E835429BB7F7AC00A41DC2E6ADFB3C6 /* Pods-OKXUIlib_Example-frameworks.sh */,
+				85347637A9786F8C631F1C2EB024E5B9 /* Pods-OKXUIlib_Example-Info.plist */,
+				28E95C4FF6E27C4E4EE304B720028425 /* Pods-OKXUIlib_Example-umbrella.h */,
+				9E27822A3CE9B6FF566B01F3BAC35D2C /* Pods-OKXUIlib_Example.debug.xcconfig */,
+				A7B6CBD4E087BDAC5767A7A3A67AFFD8 /* Pods-OKXUIlib_Example.release.xcconfig */,
+			);
+			name = "Pods-OKXUIlib_Example";
+			path = "Target Support Files/Pods-OKXUIlib_Example";
+			sourceTree = "<group>";
+		};
+		F713110D758CA3209E15D9D70941C3DA /* OKXUIlib */ = {
+			isa = PBXGroup;
+			children = (
+				B19C53562B30C76700777B8D /* CollectionViewDataSource.swift */,
+				B19C53592B30C76800777B8D /* HomeViewController.swift */,
+				B19C53572B30C76700777B8D /* VideoCell.swift */,
+				B19C53582B30C76700777B8D /* ViewModel.swift */,
+				A59282EC2A8CFD6FF835F88DE1FA561A /* Pod */,
+				BF2AEEF1F5B964691076E4C72907244B /* Support Files */,
+			);
+			name = OKXUIlib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DE6EBFCEEEC16C73D5098A1063E3F47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BD169099E7B1452739868D400EB511 /* OKXUIlib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787E8C9B3A63EDD68B1DA7BBD3746347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CC777E1017D22AEB77EC113906544F /* Pods-OKXUIlib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C4F832A0289C20A42596B996E11C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25BFD370011300753CCE2572F54129A /* Pods-OKXUIlib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6890D8C9BDF7F7100F7563FB6F907340 /* OKXUIlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A316A5B80686CE5BB12882DFAC35A21E /* Build configuration list for PBXNativeTarget "OKXUIlib" */;
+			buildPhases = (
+				0DE6EBFCEEEC16C73D5098A1063E3F47 /* Headers */,
+				CC2CF06501D5099539D6E6BA94DDD613 /* Sources */,
+				076EBBDF006F3F00E3C4DA34D7F6A2F7 /* Frameworks */,
+				45B291FFC005BD0C25FBD1D5CF2F477B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OKXUIlib;
+			productName = OKXUIlib;
+			productReference = F20E5AFF7F23319AAFF4C874838DFDF8 /* OKXUIlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC4411E86586EB38CFDCDB8F3379DB09 /* Pods-OKXUIlib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E86B6EB7ECC2CE1CDF4EE644AF9D2F2 /* Build configuration list for PBXNativeTarget "Pods-OKXUIlib_Example" */;
+			buildPhases = (
+				787E8C9B3A63EDD68B1DA7BBD3746347 /* Headers */,
+				AD0BF68C9AF1FB9A612D71AFF5B6E0F0 /* Sources */,
+				3670E0EA3AB6D4B0262BCE556029CECD /* Frameworks */,
+				F0866E1850650CE38BAA9D8027C8CA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764266A78E2D7E9AB643118B3FEB3592 /* PBXTargetDependency */,
+			);
+			name = "Pods-OKXUIlib_Example";
+			productName = Pods_OKXUIlib_Example;
+			productReference = 18C11F5C53E86F27E3C0053B0185F534 /* Pods-OKXUIlib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C93DC7289B9759CC234E99F96D7D5CA8 /* Pods-OKXUIlib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07814915B64265CCB94466DB4695AF8 /* Build configuration list for PBXNativeTarget "Pods-OKXUIlib_Tests" */;
+			buildPhases = (
+				E6C4F832A0289C20A42596B996E11C0F /* Headers */,
+				57B1321FC0CF9608823BDE8C85680ABD /* Sources */,
+				DA3FB7F67781488B82AB4A404A1FCE51 /* Frameworks */,
+				05BAD42CB56A065545F7E3B717A11C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0105FE2B2147CBF88CA4077BD410CBED /* PBXTargetDependency */,
+			);
+			name = "Pods-OKXUIlib_Tests";
+			productName = Pods_OKXUIlib_Tests;
+			productReference = 1A3D4A7012E2FF1FBF3D683971962C31 /* Pods-OKXUIlib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6890D8C9BDF7F7100F7563FB6F907340 = {
+						LastSwiftMigration = 1510;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1C2F956A4476D50C54DF3ABBE30E185A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6890D8C9BDF7F7100F7563FB6F907340 /* OKXUIlib */,
+				AC4411E86586EB38CFDCDB8F3379DB09 /* Pods-OKXUIlib_Example */,
+				C93DC7289B9759CC234E99F96D7D5CA8 /* Pods-OKXUIlib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BAD42CB56A065545F7E3B717A11C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B291FFC005BD0C25FBD1D5CF2F477B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0866E1850650CE38BAA9D8027C8CA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B1321FC0CF9608823BDE8C85680ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A98DB28DC4325A37031FB5CD6D3B95 /* Pods-OKXUIlib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0BF68C9AF1FB9A612D71AFF5B6E0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9541E9E627ECEEAA3C4594F604EAAD1B /* Pods-OKXUIlib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CF06501D5099539D6E6BA94DDD613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19C535D2B30C76800777B8D /* HomeViewController.swift in Sources */,
+				9C98F995A571A2F7D1BB9638C30AD46C /* OKXUIlib-dummy.m in Sources */,
+				B19C535A2B30C76800777B8D /* CollectionViewDataSource.swift in Sources */,
+				B19C535C2B30C76800777B8D /* ViewModel.swift in Sources */,
+				B19C535B2B30C76800777B8D /* VideoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0105FE2B2147CBF88CA4077BD410CBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OKXUIlib_Example";
+			target = AC4411E86586EB38CFDCDB8F3379DB09 /* Pods-OKXUIlib_Example */;
+			targetProxy = 9ADE9F89F69B08ED2810512D4793D690 /* PBXContainerItemProxy */;
+		};
+		764266A78E2D7E9AB643118B3FEB3592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKXUIlib;
+			target = 6890D8C9BDF7F7100F7563FB6F907340 /* OKXUIlib */;
+			targetProxy = 894E4BDF58E073A38C8FF0135284266C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E400BA683B3EED94CD6DE88760F38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853A4866547400B1558BAA03C551D65F /* OKXUIlib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OKXUIlib/OKXUIlib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKXUIlib/OKXUIlib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKXUIlib/OKXUIlib.modulemap";
+				PRODUCT_MODULE_NAME = OKXUIlib;
+				PRODUCT_NAME = OKXUIlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09FB9E9CD5A5CA61A0BD74EB20AFE685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B6CBD4E087BDAC5767A7A3A67AFFD8 /* Pods-OKXUIlib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKXUIlib_Example/Pods-OKXUIlib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKXUIlib_Example/Pods-OKXUIlib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4043E5B125EF346BDB080BF00BB41E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E27822A3CE9B6FF566B01F3BAC35D2C /* Pods-OKXUIlib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKXUIlib_Example/Pods-OKXUIlib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKXUIlib_Example/Pods-OKXUIlib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BA16B39189617FA3FFAD0B69DAB159F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3D8B1D3EC6C4929136F7DC6A05E0F8 /* OKXUIlib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OKXUIlib/OKXUIlib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKXUIlib/OKXUIlib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKXUIlib/OKXUIlib.modulemap";
+				PRODUCT_MODULE_NAME = OKXUIlib;
+				PRODUCT_NAME = OKXUIlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68D06F18F38B72B17EFD904506795FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653C54B03016F448A86D8B227E9A8422 /* Pods-OKXUIlib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKXUIlib_Tests/Pods-OKXUIlib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKXUIlib_Tests/Pods-OKXUIlib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8611AD6CC3A00CC9B2D0A4D94F50750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF7756F3A789A3243E9C6A3E4A24656 /* Pods-OKXUIlib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKXUIlib_Tests/Pods-OKXUIlib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKXUIlib_Tests/Pods-OKXUIlib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E86B6EB7ECC2CE1CDF4EE644AF9D2F2 /* Build configuration list for PBXNativeTarget "Pods-OKXUIlib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4043E5B125EF346BDB080BF00BB41E88 /* Debug */,
+				09FB9E9CD5A5CA61A0BD74EB20AFE685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A316A5B80686CE5BB12882DFAC35A21E /* Build configuration list for PBXNativeTarget "OKXUIlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E400BA683B3EED94CD6DE88760F38F /* Debug */,
+				5BA16B39189617FA3FFAD0B69DAB159F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07814915B64265CCB94466DB4695AF8 /* Build configuration list for PBXNativeTarget "Pods-OKXUIlib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8611AD6CC3A00CC9B2D0A4D94F50750 /* Debug */,
+				68D06F18F38B72B17EFD904506795FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

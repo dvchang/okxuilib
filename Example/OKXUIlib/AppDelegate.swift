@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OKXUIlib
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        window = UIWindow(frame: UIScreen.main.bounds)
+            
+        let viewController = OKXUIlib.HomeViewController()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            viewController.showData(rawData: [
+                ("https://wpclipart.com/education/animal_numbers/animal_number_1.jpg", "https://media.giphy.com/media/l0ExncehJzexFpRHq/giphy.mp4"),
+                ("https://wpclipart.com/education/animal_numbers/animal_number_2.jpg", "https://media.giphy.com/media/26gsqQxPQXHBiBEUU/giphy.mp4"),
+                ("https://wpclipart.com/education/animal_numbers/animal_number_3.jpg", "https://media.giphy.com/media/oqLgjAahmDPvG/giphy.mp4"),
+                ("https://wpclipart.com/education/animal_numbers/animal_number_4.jpg", "https://media.giphy.com/media/d1E1szXDsHUs3WvK/giphy.mp4"),
+                ("https://wpclipart.com/education/animal_numbers/animal_number_5.jpg", "https://media.giphy.com/media/OiJjUsdAb11aE/giphy.mp4"),
+                ("https://wpclipart.com/education/animal_numbers/animal_number_6.jpg", "https://media.giphy.com/media/4My4Bdf4cakLu/giphy.mp4")
+            ])
+        }
+        
+        window?.rootViewController = viewController
+            
+        window?.makeKeyAndVisible()
+        
+        
         return true
     }
 

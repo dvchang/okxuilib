@@ -1,0 +1,22 @@
+{
+  "name": "OKXUIlib",
+  "version": "0.1.0",
+  "summary": "A short description of OKXUIlib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1630880/OKXUIlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1630880": "dvchangyuan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/1630880/OKXUIlib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OKXUIlib/Classes/**/*"
+}

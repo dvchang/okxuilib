@@ -2,8 +2,12 @@ PODS:
   - Alamofire (5.8.1)
   - AlamofireImage (4.3.0):
     - Alamofire (~> 5.8)
+  - Cache (5.3.0)
+  - CachingPlayerItem (1.0.8)
   - OKXUIlib (0.1.0):
     - AlamofireImage (~> 4.3)
+    - Cache
+    - CachingPlayerItem
 
 DEPENDENCIES:
   - OKXUIlib (from `../`)
@@ -12,6 +16,8 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - Cache
+    - CachingPlayerItem
 
 EXTERNAL SOURCES:
   OKXUIlib:
@@ -20,7 +26,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
-  OKXUIlib: 7152ed7567ba2158935a3cab9dfafe962bcd5a4b
+  Cache: 48762993ec44e1d93483c4d4a13edd18452326f4
+  CachingPlayerItem: 6564ec6c7cad409081dca01c549a0bf92367806a
+  OKXUIlib: 13d00c6e40dfb4e40a7a9a324f1e26d64188e2ed
 
 PODFILE CHECKSUM: 4294d417b5b9b66975a548658c7c3f3215f62a98
 

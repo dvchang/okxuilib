@@ -1,27 +1,35 @@
 {
   "name": "OKXUIlib",
   "version": "0.1.0",
-  "summary": "A short description of OKXUIlib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1630880/OKXUIlib",
+  "summary": "OKXUIlib can display video and image carousel in a home feed.",
+  "description": "OKXUIlib can display video and image carousel in a home feed. Video on the top and image carousel at the bottom.",
+  "homepage": "https://github.com/dvchang/OKXUIlib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1630880": "dvchangyuan@gmail.com"
+    "dvchang": "dvchangyuan@gmail.com"
   },
   "source": {
-    "git": "https://github.com/1630880/OKXUIlib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/dvchang/OKXUIlib.git",
+    "tag": "v0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "source_files": "OKXUIlib/Classes/**/*",
   "dependencies": {
     "AlamofireImage": [
       "~> 4.3"
+    ],
+    "CachingPlayerItem": [
+
+    ],
+    "Cache": [
+
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
